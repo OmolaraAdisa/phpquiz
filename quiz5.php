@@ -1,8 +1,8 @@
 <?php 
-$name = array ('Lara'=>'reading','Narcisse'=>'traveling','Love'=>'dancing');
+$name = array ('Lara','Narcisse','Love');
 $hobbies = array ('reading','traveling','dancing');
- foreach ($name as $key => $value) {
-     echo 'My name is '.$key.' and I love ' .$value ;
-     echo '<br>';
- }
+
+for ($i = 0; $i < 3; $i++) {
+    echo "My name is " . $name[$i] . ' I love ' . $hobbies[$i] .  '<br>';
+}
 ?>
